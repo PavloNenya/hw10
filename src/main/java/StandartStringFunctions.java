@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class StandartStringFunctions {
     public static void main(String[] args) {
-        //Stream.of(5,1,6,8,3,6,2,9).filter(x -> x > 5).map(x -> x+2).forEach(System.out::println);   //(String "One", "Two", "Three").
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter a string to check if it ends with a substring: ");
