@@ -41,6 +41,14 @@ public class StandartStringFunctions {
         return str.contains(subStr);
     }
 
+
+    /**
+     * This function returns true if the two strings are equal, ignoring case.
+     *
+     * @param s1 The first string to compare.
+     * @param s2 The string to compare to s1.
+     * @return true or false
+     */
     public static boolean isEqual(String s1, String s2) {
         return s1.equalsIgnoreCase(s2);
     }
